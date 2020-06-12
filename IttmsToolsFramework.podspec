@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'IttmsToolsFramework'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'Shared Files.'
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '10.2'
   s.swift_version = "5.0"
-  s.platform     = {
+  s.platforms = {
       "ios": "10.2"
   }
   
