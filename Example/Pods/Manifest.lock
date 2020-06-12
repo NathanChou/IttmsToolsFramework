@@ -1,0 +1,16 @@
+PODS:
+  - IttmsToolsFramework (0.1.0)
+
+DEPENDENCIES:
+  - IttmsToolsFramework (from `../`)
+
+EXTERNAL SOURCES:
+  IttmsToolsFramework:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  IttmsToolsFramework: 439ace1ffcdc93c0dd40edf0e98708fcf08271bc
+
+PODFILE CHECKSUM: 571597010302a2a971edf8ebf83ba7b696d07ff5
+
+COCOAPODS: 1.9.3

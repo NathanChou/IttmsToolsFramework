@@ -1,0 +1,22 @@
+{
+  "name": "IttmsToolsFramework",
+  "version": "0.1.0",
+  "summary": "A short description of IttmsToolsFramework.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/NathanChou/IttmsToolsFramework",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "NathanChou": "nathan08101@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/NathanChou/IttmsToolsFramework.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "IttmsToolsFramework/Classes/**/*"
+}

@@ -43,10 +43,10 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		7776E6FE8F50B015A9D2BCD8 /* Pods_IttmsToolsFramework_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IttmsToolsFramework_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		79F514EC6BDF36D2CB531775 /* Pods-IttmsToolsFramework_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IttmsToolsFramework_Example.release.xcconfig"; path = "Target Support Files/Pods-IttmsToolsFramework_Example/Pods-IttmsToolsFramework_Example.release.xcconfig"; sourceTree = "<group>"; };
-		B47DA6ED572873C3DD712BB0 /* IttmsToolsFramework.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = IttmsToolsFramework.podspec; path = ../IttmsToolsFramework.podspec; sourceTree = "<group>"; };
-		C92B53AB7AA34660A2862902 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		B47DA6ED572873C3DD712BB0 /* IttmsToolsFramework.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = IttmsToolsFramework.podspec; path = ../IttmsToolsFramework.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C92B53AB7AA34660A2862902 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		CC1DB53FCC44AE4C4F1C18BB /* Pods_IttmsToolsFramework_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IttmsToolsFramework_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F15EA43930FB2D1F71683CC5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		F15EA43930FB2D1F71683CC5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,7 +156,6 @@
 				539E529912AC9FA1FFCA30CC /* Pods-IttmsToolsFramework_Tests.debug.xcconfig */,
 				5EDCE34DBCBAB34A7D873A23 /* Pods-IttmsToolsFramework_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
