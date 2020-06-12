@@ -9,9 +9,9 @@
 /* Begin PBXBuildFile section */
 		08BC31D68C6E98D7CEFE78E5D7A4DBD4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		2114D4DA04A22C40F8CD2F66D3ABF234 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		66AE6CCD56A5AADF51AC3B5B1C073BB5 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABCEA5E343675C879D76C0638D06154 /* ReplaceMe.swift */; };
 		6CE99AF4409C7A8B4BE18ED4384D46F9 /* IttmsToolsFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD983DB0EF6A1A398582590E748E139 /* IttmsToolsFramework-dummy.m */; };
 		75E22DC148C43430D86CAA1274C09479 /* Pods-IttmsToolsFramework_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C13B07555FCF7E9DB5E4B79E1075217E /* Pods-IttmsToolsFramework_Tests-dummy.m */; };
+		86E2ABEC249364F600E807B0 /* RandomService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86E2ABEB249364F600E807B0 /* RandomService.swift */; };
 		899CD7964258F7817D7E50B5A04684B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		C15909C14ED2C52F52C083334BDCBF66 /* IttmsToolsFramework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8168C1898C1D9B3383DF64472DDD2862 /* IttmsToolsFramework-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E92EBFF30F7A5E63D9FAAA2CFE74461C /* Pods-IttmsToolsFramework_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 11A2E9A9C490AA30D85F92D92797E21E /* Pods-IttmsToolsFramework_Example-dummy.m */; };
@@ -45,29 +45,29 @@
 		2048902DB4201737BD2FE41A378084CC /* Pods-IttmsToolsFramework_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IttmsToolsFramework_Example.release.xcconfig"; sourceTree = "<group>"; };
 		20E2C131D5B03575C059D49744687791 /* Pods-IttmsToolsFramework_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IttmsToolsFramework_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		34A80F28D05563882D7ABD709A57D3C9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		3C87828BD9805A9DF3B6B302D995BDA7 /* Pods_IttmsToolsFramework_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_IttmsToolsFramework_Tests.framework; path = "Pods-IttmsToolsFramework_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		34A80F28D05563882D7ABD709A57D3C9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3C87828BD9805A9DF3B6B302D995BDA7 /* Pods_IttmsToolsFramework_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IttmsToolsFramework_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		59385FE7B871C4FE0CD8256E8BA969AD /* IttmsToolsFramework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = IttmsToolsFramework.modulemap; sourceTree = "<group>"; };
 		5AE2175FE8EA241CE8F5E98E88DA7EB7 /* Pods-IttmsToolsFramework_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-IttmsToolsFramework_Tests.modulemap"; sourceTree = "<group>"; };
-		5BCCD68FD1791D012FE4C85E325943A6 /* IttmsToolsFramework.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = IttmsToolsFramework.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5BCCD68FD1791D012FE4C85E325943A6 /* IttmsToolsFramework.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = IttmsToolsFramework.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5F2A139ED03F011288AB24E7D7F22B13 /* Pods-IttmsToolsFramework_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IttmsToolsFramework_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		655F5EDC577A768D3B2BA323C0EC423C /* Pods-IttmsToolsFramework_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IttmsToolsFramework_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6C463812556BA9FC2719C10AB6DC8ED8 /* Pods-IttmsToolsFramework_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IttmsToolsFramework_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		796D65BF28C311A87ADDE4678A05B9CF /* IttmsToolsFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IttmsToolsFramework.release.xcconfig; sourceTree = "<group>"; };
 		8168C1898C1D9B3383DF64472DDD2862 /* IttmsToolsFramework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IttmsToolsFramework-umbrella.h"; sourceTree = "<group>"; };
 		824E025B270F8F14C87FE3B6CBBBDF6D /* IttmsToolsFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IttmsToolsFramework.debug.xcconfig; sourceTree = "<group>"; };
+		86E2ABEB249364F600E807B0 /* RandomService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomService.swift; sourceTree = "<group>"; };
 		8DE002F9C0F18EF0D4520B157CA5B972 /* Pods-IttmsToolsFramework_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-IttmsToolsFramework_Example-frameworks.sh"; sourceTree = "<group>"; };
 		8F40D21D2194057E0326EB03B35F37E4 /* Pods-IttmsToolsFramework_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-IttmsToolsFramework_Example.modulemap"; sourceTree = "<group>"; };
-		973EF94304F810A0D8493CF30B351EC6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		973EF94304F810A0D8493CF30B351EC6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		996E5E01533FCD0B2884B3207AAC0D0A /* Pods-IttmsToolsFramework_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-IttmsToolsFramework_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DE0BEDA36679C2B38D6BBF61F6D940D /* IttmsToolsFramework-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IttmsToolsFramework-prefix.pch"; sourceTree = "<group>"; };
 		A33A06B54C81A5265AB17BA49BAC020D /* Pods-IttmsToolsFramework_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-IttmsToolsFramework_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		AC4F4473EC68F2FB9C3238A9C566A20B /* Pods-IttmsToolsFramework_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IttmsToolsFramework_Tests-Info.plist"; sourceTree = "<group>"; };
-		B49B1B19F12DF212FE4C4B72AE532597 /* Pods_IttmsToolsFramework_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_IttmsToolsFramework_Example.framework; path = "Pods-IttmsToolsFramework_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BABCEA5E343675C879D76C0638D06154 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = IttmsToolsFramework/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		B49B1B19F12DF212FE4C4B72AE532597 /* Pods_IttmsToolsFramework_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IttmsToolsFramework_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C13B07555FCF7E9DB5E4B79E1075217E /* Pods-IttmsToolsFramework_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-IttmsToolsFramework_Tests-dummy.m"; sourceTree = "<group>"; };
-		C50951C26EE0C2BB642969151AC8EFB9 /* IttmsToolsFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = IttmsToolsFramework.framework; path = IttmsToolsFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C50951C26EE0C2BB642969151AC8EFB9 /* IttmsToolsFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IttmsToolsFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD1BFBA31B683CD2DD7FD516EB0DC313 /* Pods-IttmsToolsFramework_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-IttmsToolsFramework_Tests-umbrella.h"; sourceTree = "<group>"; };
 		CDD983DB0EF6A1A398582590E748E139 /* IttmsToolsFramework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IttmsToolsFramework-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -136,7 +136,7 @@
 		616F02A8CE3DDE33007820F6FA08FEEE /* IttmsToolsFramework */ = {
 			isa = PBXGroup;
 			children = (
-				BABCEA5E343675C879D76C0638D06154 /* ReplaceMe.swift */,
+				86E2ABD02493634B00E807B0 /* Source */,
 				7659E5554355F47A1AB32115710E5D06 /* Pod */,
 				4E2E77DB2421067BD195681F0FA52F77 /* Support Files */,
 			);
@@ -152,6 +152,14 @@
 				34A80F28D05563882D7ABD709A57D3C9 /* README.md */,
 			);
 			name = Pod;
+			sourceTree = "<group>";
+		};
+		86E2ABD02493634B00E807B0 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				86E2ABEB249364F600E807B0 /* RandomService.swift */,
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 		95F086B43EB259EA9E28085554E63B1E /* Targets Support Files */ = {
@@ -317,6 +325,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					4E3808CD6D89C625507C59939657181B = {
+						LastSwiftMigration = 1150;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -383,8 +396,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86E2ABEC249364F600E807B0 /* RandomService.swift in Sources */,
 				6CE99AF4409C7A8B4BE18ED4384D46F9 /* IttmsToolsFramework-dummy.m in Sources */,
-				66AE6CCD56A5AADF51AC3B5B1C073BB5 /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,6 +423,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 824E025B270F8F14C87FE3B6CBBBDF6D /* IttmsToolsFramework.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -430,6 +444,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -619,13 +634,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -682,7 +696,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -699,6 +713,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 796D65BF28C311A87ADDE4678A05B9CF /* IttmsToolsFramework.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";

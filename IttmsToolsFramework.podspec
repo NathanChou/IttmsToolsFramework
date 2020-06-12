@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'IttmsToolsFramework'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of IttmsToolsFramework.'
+  s.summary          = 'Shared Files.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+'Networking, Extensions, Views'
                        DESC
 
   s.homepage         = 'https://github.com/NathanChou/IttmsToolsFramework'
@@ -28,9 +28,15 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/NathanChou/IttmsToolsFramework.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
-
-  s.source_files = 'IttmsToolsFramework/Classes/**/*'
+  s.ios.deployment_target = '10.2'
+  s.swift_version = "5.0"
+  s.platform     = {
+      "ios": "10.2"
+  }
+  
+  s.source_files = 'Source/**/*.swift'
+  
+  s.dependency 'Alamofire', '~> 4.7'
   
   # s.resource_bundles = {
   #   'IttmsToolsFramework' => ['IttmsToolsFramework/Assets/*.png']
@@ -38,5 +44,4 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end
