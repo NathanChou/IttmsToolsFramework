@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'IttmsToolsFramework_Example' do
+  pod 'IttmsToolsFramework', :path => '../'
+
+  target 'IttmsToolsFramework_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
